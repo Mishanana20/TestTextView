@@ -19,7 +19,7 @@ namespace TestTextView.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "Редактор эффектов"; //название страницы сверху
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
