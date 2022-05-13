@@ -9,7 +9,7 @@ namespace TestTextView.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "Вкладка Браузера Микрокотроллера для передачи файла";
+            Title = "Загрузка файла в LED-костюм";
             OpenWebCommand = new Command(async () => await Browser.OpenAsync("http://192.168.0.10"));
         }
 
